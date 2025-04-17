@@ -31,7 +31,7 @@ body {
 }
 .landing {
   background-image: linear-gradient(rgba(0, 0, 0, 0.218), rgba(0, 0, 0, 0.209)),
-    url(/img/banner.png);
+    url(img/banner.png);
   background-position: center top;
   background-size: cover;
 }
