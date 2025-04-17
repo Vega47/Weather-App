@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #262936;
+}
+.navbar {
+  background-color: #1e202b;
+}
+.navbar .container-fluid .content h5 {
+  color: white;
+  font-size: 14px;
+}
+.navbar .container-fluid .content h6 {
+  color: #bfc1aa;
+  font-size: 10px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a {
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  padding-inline: 10px;
+  margin-inline: 10px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  color: #039fd9;
+  border-color: #039fd9;
+}
+.landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.218), rgba(0, 0, 0, 0.209)),
+    url(/img/banner.png);
+  background-position: center top;
+  background-size: cover;
+}
+.search-bar {
+  position: relative;
+}
+.landing .search-bar input {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #1e202b;
+  color: white;
+}
+.landing .search-bar button {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #039fd9;
+  transform: translateX(-30px);
+}
+.weather {
+  background-color: #1e202b;
+}
+.weather .cards {
+  transform: translateY(-50px);
+}
+.weather .cards .card {
+  background-color: #323544;
+}
+.weather .cards .card .header {
+  background-color: #2d303d;
+}
+.weather .cards .card .header h3 {
+  font-size: 14px;
+  color: white;
+}
+.container h5 {
+  font-size: 18px;
+  color: #bfc1c8;
+}
+.container h1 {
+  font-size: 80px;
+  color: #ffffff;
+}
+.container h3 {
+  font-size: 14px;
+  color: #009ad8;
+}
+.container ul li div span {
+  color: #bfc1c8;
+  font-size: 14px;
+}
+.container ul li div {
+  margin-left: 10px;
+}
+.footer {
+  background-color: #262936;
+}
+.footer .contact input {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #1e202b;
+  color: white;
+}
+.footer .contact button {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #039fd9;
+  transform: translateX(-40px);
+}
+.icons ul li i {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons ul li i:hover {
+  color: #009ad8 !important;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg px-5">
+      <div class="container-fluid d-flex flex-row">
+        <div class="d-flex">
+          <div class="image">
+            <img src="img/logo.png" class="w-100" alt="" />
+          </div>
+          <div class="content d-flex flex-column mx-3">
+            <h5>Weather</h5>
+            <h6>tagline goes here</h6>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Live Cameras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="landing w-100 py-5">
+      <div
+        class="search-bar w-100 d-flex flex-row justify-content-center align-items-center py-5"
+      >
+        <input
+          type=" search"
+          id="searchBar"
+          class="w-50 p-2"
+          placeholder="Find Your Location"
+        />
+        <button class="py-2 px-4">Find</button>
+      </div>
+    </div>
+    <div class="weather d-flex flex-row justify-content-center">
+      <div class="cards w-75">
+        <div class="row g-0" id="demo"></div>
+      </div>
+    </div>
+    <div class="footer p-5">
+      <div class="row">
+        <div
+          class="contact col-md-8 d-flex justify-content-center align-items-center"
+        >
+          <input
+            type="text"
+            class="w-75 p-2"
+            placeholder="Enter Your email to subscirbe"
+          />
+          <button class="p-2 px-4">send</button>
+        </div>
+        <div class="col-md-4 py-3">
+          <div class="icons w-75 d-flex flex-row justify-content-center">
+            <ul class="d-flex flex-row mb-0">
+              <li>
+                <i class="fa-brands fa-facebook text-white me-3 fs-3"></i>
+              </li>
+              <li><i class="fa-brands fa-twitter text-white me-3 fs-3"></i></li>
+              <li><i class="fa-brands fa-google text-white me-3 fs-3"></i></li>
+              <li><i class="fa-brands fa-twitch text-white me-3 fs-3"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
